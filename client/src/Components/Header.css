@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.Header{
+    display: flex;
+    height: 100px;
+    background-color: #2F2971;
+    justify-content: space-between;
+}
+.Logo{
+    font-family: 'interbold';
+    color: #ffffff;
+    width: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.Userinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+#user-avt{
+    height: 40px;
+    width: 40px;
+}
+#username{
+    color: #ffffff;
+}
+@font-face {
+    font-family: 'interbold';
+    src: url('../assets/font/Inter-Bold.otf') format('opentype');
+}
+.logo-link{
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+    margin-left: 30px;
+}
